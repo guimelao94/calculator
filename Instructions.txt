@@ -1,0 +1,40 @@
+The Calculator! Part 1
+
+**In this exercise you will learn how to create a simple virtual calculator.
+
+1- Create a new file and name it "index.html".
+
+2- Inside the file that you just created type html:5 and press enter to get it set up with the main code for a simple website.
+
+3- Inside of the body lets create two divisions: one for the result and another for the number pad
+	-First lets create the division for the result. Inside of the body type div and press enter twice. Add a class to this division
+	and name it result. (Your opening tag should now look like this   <div class="result">)
+	-Second lets create another division for the number pad. Right after the closing tag of the result division press enter to create
+	a new line then type div and press enter twice. Add a class to this new division and name it number-pad. (Your opening tag for 
+	this division should now look like this <div class="number-pad"> )
+
+3.1- Inside of the number-pad division type table and press enter. (You may want to press enter twice to open up a line in between 
+the opening and closing tags of the table).
+
+4- Inside of the table you need to create the structure for the calculator. Keep in mind that tables have rows (<tr> which stands
+for table row) and columns (<td> which stands for table division).
+
+5- You need to create 4 table rows with 4 divisions inside of each row.
+	- To create a table row simply type tr and press enter (Make sure that you create the rows inside of the table. After typing tr
+	you should press enter twice to create a line between the opening and closing tags of the row).
+	- To create a table division simply type td and press enter(Make sure that you create the divisions inside of a table row.)
+	- At the end of this step you should have something similar to what's showing on part-5.png
+
+6- Inside of each division you will now create a button.
+	-Start with the first division inside of the first row.
+	-To create a button just type button and press enter.
+	-After pressing enter type the corresponding number or operator. (The value for the button in the first division of the first row
+	is 7).
+	-Look at the part-6.png file to see how the final structure should look like.
+	-If you are having too much trouble getting it to look the way is shown on the picture, look at the part-6-code.png file for clues.
+
+7- Next lets add an input element where the numbers and the result will be displayed.
+	-Inside of the result division, which is the first division that you created type input and press enter.
+	-Make sure that your code is identical to the one shown in the part-7.png file before you move on.
+
+8- Please have your parents reach out to me when you finish this section, and I will then post Part 2, which includes the JQuery code that makes it all work.

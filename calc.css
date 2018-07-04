@@ -1,0 +1,15 @@
+input{
+	text-align:right;
+	width:4.7em;
+	font-size: 2em;
+}
+
+button:not(.clear){
+
+	font-size: 2em;
+	width:100%;
+}
+
+.clear{
+	font-size: 2em;
+}
